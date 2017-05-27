@@ -8,11 +8,11 @@ baseurl: '/'
 
 author:
   name: 'Muhamad Insan Rizky'
-  email: insanrizky@gmail.com
-  twitter_username: insanrizky
+  email: minsanrizky@gmail.com
+  twitter_username: insan_rizky
   facebook_username: insanrizky
   github_username:  insanrizky
-  linkedin_username:  insanrizky
+  linkedin_username:  muhamad-insan-rizky-82887789
 
 defaults:
   -
