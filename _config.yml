@@ -1,0 +1,39 @@
+# Site settings
+title: Muhamad Insan Rizky
+description: 'My Glorious Happiness with Code Experiences'
+url: 'http://insanrizky.github.io'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Muhamad Insan Rizky'
+  email: insanrizky@gmail.com
+  twitter_username: insanrizky
+  facebook_username: insanrizky
+  github_username:  insanrizky
+  linkedin_username:  insanrizky
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
